@@ -1,3 +1,4 @@
+
 # Implementation-of-Logistic-Regression-Using-Gradient-Descent
 
 ## AIM:
@@ -136,13 +137,14 @@ print("\nConfusion Matrix:\n", cm_df)
 report = classification_report(y_test, y_pred, output_dict=True)
 report_df = pd.DataFrame(report).transpose()
 print("\nClassification Report:\n", report_df.round(2))
+
+
 ```
-
-
 
 ## Output:
 <img width="505" height="301" alt="image" src="https://github.com/user-attachments/assets/57309e7d-e6fa-44d8-9ff7-50f485a5e592" />
 
 
 ## Result:
-Thus the program to implement the the Logistic Regression Using Gradient Descent is written and verified using python programming
+Thus the program to implement the the Logistic Regression Using Gradient Descent is written and verified using python programming.
+
